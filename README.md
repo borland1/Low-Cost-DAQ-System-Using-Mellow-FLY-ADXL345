@@ -13,6 +13,6 @@ With some simple mounting hardware, the FLY-ADXL345 can be quickly setup on magn
 
 <img width="615" height="666" alt="image" src="https://github.com/user-attachments/assets/50ae8424-ded6-4bab-acdc-b0eb8b16813a" />
 
-With custom Raspberry Pi Pico firmware provided in this repository, acceleration data binary sampling is possible at sampling rates up to 3,200 Hz and to be saved as CSV files for loading in high performance KST Plot analytical plotting software.
+With the custom Raspberry Pi Pico firmware provided in this repository, 3-axis acceleration sampling data, binary streaming is possible at sampling rates up to 3,200 Hz and sampling data can be saved as CSV files for direct loading in high performance KST Plot analytical plotting software.
 
 

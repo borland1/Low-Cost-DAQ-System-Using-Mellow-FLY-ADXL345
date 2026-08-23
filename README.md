@@ -4,6 +4,8 @@ This project is a low cost Data Acquisition (DAQ) System, based on a re-purposed
 The Mellow FLY-ADXL345 Acceleration Sensor was designed specifically for Klipper firmware, running on 3D printers, and used as a input shaper,
 to compensation for resonance, and improving print quality. The unique property of this sensor is the Raspberry Pi Pico RP2040 processor, 2MB programmable flash memory, and the ability to be powered and communicate by USB-C serial port. The RP2040 operates as a Dual Core Cortex M0+ processor running at 133 MHz.  The on board ADXL345 digital 3 axis accelerometer is capable of sampling rates of up to 3,200 samples per second.
 
+The FLY-ADXL345 PCB connects the RP2040 processor pins with the Analog Devices ADXL345 sensor via four-wire SPI, and ADXL345 interrupt pin INT1 with RP2040's GPIO28.
+
 <img width="654" height="549" alt="image" src="https://github.com/user-attachments/assets/a60c9aa8-47ce-4cd8-ab3d-b57737152a37" />
 <img width="636" height="614" alt="image" src="https://github.com/user-attachments/assets/9978c39c-5510-48f9-929e-73fd4a2b3df7" />
 

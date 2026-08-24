@@ -1,4 +1,4 @@
-Here's a list of materials and estimated costs for purchasing the Mellow FLY-ADXL Sensor and mounting hardware
+Here's a list of materials and estimated costs for purchasing the Mellow FLY-ADXL345 Sensor and mounting hardware
 
 <img width="711" height="385" alt="image" src="https://github.com/user-attachments/assets/728391e0-cc53-45c7-b0ed-d8f28b7b3ce2" />
 

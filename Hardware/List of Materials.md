@@ -4,7 +4,7 @@ Here's a list of materials and estimated costs for purchasing the Mellow FLY-ADX
 
 I purchased most of these parts from AliExpress.com.  You might find them elsewhere, but here are some screenshots for the sources on AliExpress.com that I found.
 If you want to buy parts from AliExpress.com, look for sellers that ship by AliExpress.com shipping because those items can benefit by combined shipping fees.
-Look for items on AliExpress.com that say 'free shipping over $10' (shopping cart total).
+Look for items on AliExpress.com that say 'free shipping over $10' (shopping cart $ total of items shipped using AliExpress.com shipping).
 
 Search for "Mellow FLY ADXL345"
 <img width="1017" height="490" alt="image" src="https://github.com/user-attachments/assets/1df7523e-3b6b-4e1a-b4cf-fc6083d53c1b" />

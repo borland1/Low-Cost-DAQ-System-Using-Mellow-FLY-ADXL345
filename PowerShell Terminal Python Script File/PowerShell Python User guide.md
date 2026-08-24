@@ -1,4 +1,4 @@
-Before attempting to run a Python script file, verify Python is installed on the Windows. Python package 'pyserial' is also required.
+Before attempting to run a Python script files from the Windows PowerShell terminal, verify Python is installed on the Windows. Python package 'pyserial' is also required.
 
 - From the Windows PowerShell terminal, Verify Python is installed by typing on command line:  'python --version'
      If Python is already installed, you should see a reply like:  'Python 3.14.6'

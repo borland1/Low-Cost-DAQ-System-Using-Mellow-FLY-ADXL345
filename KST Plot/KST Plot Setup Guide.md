@@ -12,8 +12,7 @@ You should have the following folders:
 
 <img width="424" height="125" alt="image" src="https://github.com/user-attachments/assets/e555a7d5-fdcc-4c10-959f-02ad518099ab" />
 
-Next, migrate in File Explorer to the bin folder and find file 'kst.exe', click on 'kst.exe' to highlight it, then right click on it and select 'create a shortcut'. Then click and drag the short cut to your desktop. Now you can launch Kst Plot from the newly created shortcut.
+Next, migrate in File Explorer to the bin folder and find file 'kst.exe', click on 'kst.exe' to highlight it, then right click on it and select 'create a shortcut'. Then click and drag the short cut to your desktop.
 
-
-
+When running KST Plot for the first time, right click on the KST shortcut you created, and select 'Run as administrator'. After the security warning, select 'run anyway'.  Two windows will appear. Ignore the blank screen window (that's normal), and enlarge the program window so it overlaps the blank screen window. The next time you run kst.exe, you won't see that security warning again.
 

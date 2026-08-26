@@ -10,7 +10,7 @@ This is a Windows binary standalone copy.  So, there is no typical Windows insta
 
 You should have the following main folder, and three sub-folders:
 
-<img width="424" height="125" alt="image" src="https://github.com/user-attachments/assets/e555a7d5-fdcc-4c10-959f-02ad518099ab" />
+<img width="483" height="171" alt="image" src="https://github.com/user-attachments/assets/788d96c3-029f-4769-bdb6-d2b71da4e7b4" />
 
 Next, migrate in File Explorer to the bin folder and find file 'kst.exe', click on 'kst.exe' to highlight it, then right click on it and select 'create a shortcut'. Then click and drag the short cut to your desktop.
 

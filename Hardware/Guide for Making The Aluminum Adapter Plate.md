@@ -5,8 +5,8 @@ Here's a helper Guide for making the Aluminum Adapter Plate
 First print out the Adapter Plate template from the PDF file 'MagneticBasePlateTemplate.pdf' found in the 'Hardware' Folder here.
 Be sure to adjust the printer settings to print 'Actual Size'.
 
-I used a hacksaw to hand cut the aluminum square plate to size,
-then cleaned up the edges with a hand file.
+I used a bench vise and hacksaw to hand cut the aluminum square plate down to size,
+then I cleaned up the edges with a flat metal hand file.
 
 Use a pair of scissors to cutout the paper template and attach it to the aluminum square plate.
 I used Rubber Cement as a quick drying adhesive, however double sided tape will work just as well.

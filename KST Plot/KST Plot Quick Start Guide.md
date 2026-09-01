@@ -48,5 +48,14 @@ And Tab 2 with the Power Spectral Density (PSD) plots.
 
 <img width="1174" height="727" alt="image" src="https://github.com/user-attachments/assets/92558e6d-664c-4c17-ac35-78e0ab711462" />
 
+You can explore the data, using the Zoom feature to zoom in on random events. In this case high g force in z-axis channel.
+
+<img width="1170" height="728" alt="image" src="https://github.com/user-attachments/assets/ec38c983-017a-4330-9579-2b488c8b4e2c" />
+
+Or, on Tab 2, zooming in on lower frequencies of the PSD plot.
+
+<img width="1175" height="727" alt="image" src="https://github.com/user-attachments/assets/2fd4f1a0-a1fe-4636-ad45-be0b70067fb2" />
+
+
 
 

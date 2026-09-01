@@ -1,8 +1,8 @@
 # Low-Cost-DAQ-System-Using-Mellow-FLY-ADXL345
-This project is a low cost Data Acquisition (DAQ) System, based on a re-purposed Mellow FLY-ADXL345 Sensor, and KST Plot software.
+This project is a low cost Data Acquisition (DAQ) System, based on a re-purposed Mellow FLY-ADXL345 Digital 3-Axis Accelerometer Sensor, and KST Plot software.
 
-The Mellow FLY-ADXL345 Acceleration Sensor was designed specifically for Klipper firmware, running on 3D printers, and used as a input shaper,
-to compensation for resonance, and improving print quality. The unique property of this sensor is the Raspberry Pi Pico RP2040 processor, 2MB programmable flash memory, and the ability to be powered and communicate by USB-C serial port. The RP2040 operates as a Dual Core Cortex M0+ processor running at 133 MHz.  The on board ADXL345 digital 3 axis accelerometer is capable of sampling rates of up to 3,200 samples per second.
+The Mellow FLY-ADXL345 Accelerometer Sensor module was designed specifically for Klipper firmware, running on 3D printers, and used as a input shaper,
+to compensation for resonance, and improving print quality. The unique property of this module is the Raspberry Pi Pico RP2040 processor, 2MB programmable flash memory, and the ability to be powered and communicate by USB-C serial port. The RP2040 operates as a Dual Core Cortex M0+ processor running at 133 MHz. The on board ADXL345 digital 3-axis accelerometer is capable of sampling rates of up to 3,200 samples per second.
 
 The FLY-ADXL345 PCB connects the RP2040 processor pins with the Analog Devices ADXL345 sensor via four-wire SPI, and ADXL345 interrupt pin INT1 with RP2040's GPIO28.
 
@@ -15,6 +15,6 @@ With some simple mounting hardware, the FLY-ADXL345 can be quickly setup on magn
 
 <img width="615" height="666" alt="image" src="https://github.com/user-attachments/assets/50ae8424-ded6-4bab-acdc-b0eb8b16813a" />
 
-With the custom Raspberry Pi Pico firmware provided in this repository, 3-axis acceleration sampling data, binary streaming is possible at sampling rates up to 3,200 Hz and sampling data can be saved as CSV files for direct loading in high performance KST Plot analytical plotting software.
+With the custom Raspberry Pi Pico firmware provided in this repository, 3-axis acceleration sampling data with binary streaming, is possible at sampling rates up to 3,200 Hz.  And sampling data can be saved as CSV files, for direct loading in the high performance KST Plot analytical plotting software.
 
 

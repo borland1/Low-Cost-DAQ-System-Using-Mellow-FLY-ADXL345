@@ -1,5 +1,5 @@
 # Low-Cost-DAQ-System-Using-Mellow-FLY-ADXL345
-This project is a low cost Data Acquisition (DAQ) System, based on a re-purposed Mellow FLY-ADXL345 Digital 3-Axis Accelerometer Sensor, and KST Plot software.
+This project is a low cost Data Acquisition (DAQ) System, based on a re-purposed Mellow FLY-ADXL345 Digital 3-Axis Accelerometer Sensor, and open source code, KST Plot software.
 
 The Mellow FLY-ADXL345 Accelerometer Sensor module was designed specifically for Klipper firmware, running on 3D printers, and used as a input shaper,
 to compensation for resonance, and improving print quality. The unique property of this module is the Raspberry Pi Pico RP2040 processor, 2MB programmable flash memory, and the ability to be powered and communicate by USB-C serial port. The RP2040 operates as a Dual Core Cortex M0+ processor running at 133 MHz. The on board ADXL345 digital 3-axis accelerometer is capable of sampling rates of up to 3,200 samples per second.

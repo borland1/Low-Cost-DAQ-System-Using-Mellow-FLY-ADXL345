@@ -1,4 +1,6 @@
-Before attempting to run a Python script files from the Windows PowerShell terminal, verify Python is installed on the Windows. Python package 'pyserial' is also required.
+Before attempting to run a Python script files from the Windows PowerShell terminal, verify Python is installed on the Windows. 
+ Python package 'pyserial' is also required to run these Python scripts.  The easiest and cleanest method to install Python is from
+ the PowerShell terminal, and requires no manual browser downloads. 
 
 - From the Windows PowerShell terminal, Verify Python is installed by typing on command line:  'python --version'
      If Python is already installed, you should see a reply like:  'Python 3.14.6'
@@ -6,13 +8,21 @@ Before attempting to run a Python script files from the Windows PowerShell termi
 - From the Windows PowerShell terminal, Verify Python 'pyserial' package is installed, type command line: 'pip list'
    If Python 'pyserial' is installed, you should see something like: 'pyserial 3.5'
 
-- To install Python from the Windows PowerShell terminal, type on command line:  'winget install Python.Python.3.14'
+- To install Python from Windows, 'exit' any open PowerShell terminal, then open it again, choosing 'Run As Administrator'. To install Python
+  with Administrative privliges, type on the command line:  'winget install Python.Python.3'.  This command installs the latest version
+  of Python 3.x.  'Exit' the terminal to allow Python to initialize on the next terminal startup.
 
-- To install Python package 'pyserial', from the Window PowerShell terminal, type command: 'python -m pip install pyserial'
+- After installing Python, Install Python package 'pyserial' from the PowerShell terminal by typing the
+   command: 'python -m pip install pyserial'
 
+Two Python script files are provided for binary streaming from Pico over USB.
 
-Two Python script files are provided for binary streaming from Pico over USB. 
 - Python script file 'capture_calibrated_CSV.py' is for capturing binary streaming mode samples data
 and saving them to a CSV file named: 'capture.csv'.  You may need to edit the script's COM port number to match your Pico Windows assignment.
+
 - The second Python script file is for converting data in file 'capture.csv' and converting the timestamp from microseconds
 since boot, to elapsed time in seconds, which KST Plot can directly read.
+
+One consideration when running capture files with millisecond timestamps, the firmware limitation of clock rollover.  The timestamp is
+formatted as a 16-bit integer, which rolls over every 71 minutes from processor bootup time.  This is a compromise to keep data packet
+size smaller during binary streaming.

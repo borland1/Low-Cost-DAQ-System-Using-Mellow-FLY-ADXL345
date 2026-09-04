@@ -1,4 +1,4 @@
-Before attempting to run a Python script files from the Windows PowerShell terminal, verify Python is installed on the Windows. 
+Before attempting to run Python script files from the Windows PowerShell terminal, verify Python has been installed.
  Python package 'pyserial' is also required to run these Python scripts.  
  
  The easiest and cleanest method to install Python is from
@@ -17,7 +17,8 @@ Before attempting to run a Python script files from the Windows PowerShell termi
 - After installing Python, Install Python package 'pyserial' from the PowerShell terminal by typing the
    command: 'python -m pip install pyserial'
 
-Two Python script files are provided for binary streaming from Pico over USB.
+Two Python script files are provided for binary streaming from Pico over USB and for re-formatting the timestamp, from micro-seconds
+to seconds, for direct loading into KST Plot.
 
 - Python script file 'capture_calibrated_CSV.py' is for capturing binary streaming mode samples (up to 3200 Hz output data rates)
 and saving capture data to a CSV file named: 'capture.csv'.  You may need to edit the script's COM port number, to match your

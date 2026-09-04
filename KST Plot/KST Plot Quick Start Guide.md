@@ -42,11 +42,11 @@ Click 'Next.  Finally select Curve placement and Style, Plot placement, and Labe
 
 Click 'Finish'.  You'll now see your plots available for exploring.
 
-Here's tab 1 plots
+Here's tab 'View 1' plots
 
 <img width="1176" height="729" alt="image" src="https://github.com/user-attachments/assets/eb565e84-05ac-4e58-ab38-7c79c9331551" />
 
-And Tab 2, of the Power Spectral Density (PSD) plots.
+And Tab 'View 2', of the Power Spectral Density (PSD) plots.
 
 <img width="1174" height="727" alt="image" src="https://github.com/user-attachments/assets/92558e6d-664c-4c17-ac35-78e0ab711462" />
 
@@ -54,7 +54,7 @@ You can then explore the data using the Zoom features to zoom in on random event
 
 <img width="1170" height="728" alt="image" src="https://github.com/user-attachments/assets/ec38c983-017a-4330-9579-2b488c8b4e2c" />
 
-Or, on Tab 2, zooming in on lower frequencies of the PSD plots.
+Or, on Tab 'View 2', zooming in on the lower frequencies in the PSD plots.
 
 <img width="1175" height="727" alt="image" src="https://github.com/user-attachments/assets/2fd4f1a0-a1fe-4636-ad45-be0b70067fb2" />
 

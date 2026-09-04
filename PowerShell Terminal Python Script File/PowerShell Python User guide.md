@@ -1,5 +1,7 @@
 Before attempting to run a Python script files from the Windows PowerShell terminal, verify Python is installed on the Windows. 
- Python package 'pyserial' is also required to run these Python scripts.  The easiest and cleanest method to install Python is from
+ Python package 'pyserial' is also required to run these Python scripts.  
+ 
+ The easiest and cleanest method to install Python is from
  the PowerShell terminal, and requires no manual browser downloads. 
 
 - From the Windows PowerShell terminal, Verify Python is installed by typing on command line:  'python --version'

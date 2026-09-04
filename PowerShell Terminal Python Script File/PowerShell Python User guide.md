@@ -17,12 +17,13 @@ Before attempting to run a Python script files from the Windows PowerShell termi
 
 Two Python script files are provided for binary streaming from Pico over USB.
 
-- Python script file 'capture_calibrated_CSV.py' is for capturing binary streaming mode samples data
-and saving them to a CSV file named: 'capture.csv'.  You may need to edit the script's COM port number to match your Pico Windows assignment.
+- Python script file 'capture_calibrated_CSV.py' is for capturing binary streaming mode samples (up to 3200 Hz output data rates)
+and saving capture data to a CSV file named: 'capture.csv'.  You may need to edit the script's COM port number, to match your
+Pico's Windows assignment COM number.
 
 - The second Python script file is for converting data in file 'capture.csv' and converting the timestamp from microseconds
 since boot, to elapsed time in seconds, which KST Plot can directly read.
 
-One consideration when running capture files with millisecond timestamps, the firmware limitation of clock rollover.  The timestamp is
-formatted as a 16-bit integer, which rolls over every 71 minutes from processor bootup time.  This is a compromise to keep data packet
-size smaller during binary streaming.
+One consideration when running capture files with millisecond timestamps, is that there is a firmware limitation the total sampling time before of clock rollover. This is not a system clock rollover limitation, but due to The timestamp formatting for binary transfer over USB, to keep the data packet size more compact. Timestamp formatting is a 16-bit integer, which rolls over every 71 minutes after processor bootup at time zero.
+
+Another consideration, is resultant capture file size while data logging.  As an example, using Python script file 'capture_calibrated_csv.py', using settings of 3200 Hz sample rate, binary sampling for approximately 15 minutes, results in a CSV file size of 105,946 KB (106 MB). 

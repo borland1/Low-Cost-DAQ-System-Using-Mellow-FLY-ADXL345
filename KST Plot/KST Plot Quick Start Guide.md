@@ -40,7 +40,9 @@ Click 'Next.  Finally select Curve placement and Style, Plot placement, and Labe
 
 <img width="1173" height="730" alt="image" src="https://github.com/user-attachments/assets/6faad1d3-faad-4202-b464-aec7f96004ff" />
 
-Click 'Finish'.  You'll now see your plots available for exploring. Here's tab 1 plots
+Click 'Finish'.  You'll now see your plots available for exploring.
+
+Here's tab 1 plots
 
 <img width="1176" height="729" alt="image" src="https://github.com/user-attachments/assets/eb565e84-05ac-4e58-ab38-7c79c9331551" />
 

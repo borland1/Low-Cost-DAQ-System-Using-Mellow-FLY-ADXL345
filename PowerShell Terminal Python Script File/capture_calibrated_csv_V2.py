@@ -20,9 +20,9 @@ COM_PORT = "COM3"
 BAUD_RATE = 115200
 OUT_CSV_PATH = "capture.csv"
 FLUSH_INTERVAL_S = 0.5     # how often to flush to disk / print status
-APPEND = True              # False = always start a fresh file (old 'w' behavior)
+APPEND = False              # False = always start a fresh file (old 'w' behavior)
 
-OUTPUT_FORMAT = 3  # 1=Ax/Ay/Az(g)  2=roll/pitch(rad)+Az(g)  3=roll/pitch(deg)+Zup(g)  4=roll/pitch(deg)
+OUTPUT_FORMAT = 1  # 1=Ax/Ay/Az(g)  2=roll/pitch(rad)+Az(g)  3=roll/pitch(deg)+Zup(g)  4=roll/pitch(deg)
 
 HEADERS = {
     1: ["t_us", "Ax_g", "Ay_g", "Az_g"],

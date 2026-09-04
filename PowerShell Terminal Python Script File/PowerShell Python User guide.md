@@ -24,6 +24,6 @@ Pico's Windows assignment COM number.
 - The second Python script file is for converting data in file 'capture.csv' and converting the timestamp from microseconds
 since boot, to elapsed time in seconds, which KST Plot can directly read.
 
-One consideration when running capture files with millisecond timestamps, is that there is a firmware limitation the total sampling time before of clock rollover. This is not a system clock rollover limitation, but due to The timestamp formatting for binary transfer over USB, to keep the data packet size more compact. Timestamp formatting is a 16-bit integer, which rolls over every 71 minutes after processor bootup at time zero.
+One consideration when running capture files with millisecond timestamps, is that there is a firmware limitation the total sampling time before of clock rollover. This is not a system clock rollover limitation, but due to the timestamp formatting as a unsigned 32-bit integer for binary transfers over USB. This done to keep the data packet size more compact. Timestamp formatting in milliseconds, stored as a 32-bit unsigned integer, which rolls over every 71.6 minutes after processor bootup when system clock is set to zero.
 
-Another consideration, is resultant capture file size while data logging.  As an example, using Python script file 'capture_calibrated_csv.py', using settings of 3200 Hz sample rate, binary sampling for approximately 15 minutes, results in a CSV file size of 105,946 KB (106 MB). 
+Another consideration, is resultant capture file size while data logging.  As an example, using Python script file 'capture_calibrated_CSV.py', using settings of 3200 Hz sample rate, binary sampling for approximately 15 minutes, results in a CSV file size of 105,946 KB (106 MB).

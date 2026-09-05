@@ -32,9 +32,9 @@ attached, it may be helpful to find flat metal surfaces to attach to, such as on
 During firmware built-in calibration procedure, orientation of the Y-axis is correctly handled by the firmware. However the axis orientation
 markings (Silkscreen) on the FLY PCB incorrectly shows the wrong direction of the Y-axix.
 
-Note the differences between this photo of the FLY PCB, as compared with the orientation shown in the Analog Devices ADXL345 datasheet.
-
 <img width="601" height="595" alt="image" src="https://github.com/user-attachments/assets/f2e000f4-1075-4eb5-b31d-02b0159fabc4" />
+
+Note the differences between this photo of the FLY PCB, as compared with the orientation shown in the Analog Devices ADXL345 datasheet.
 
 <img width="1097" height="509" alt="image" src="https://github.com/user-attachments/assets/5cb9dd8b-d0d8-4b32-b38f-22f4e7d765f6" />
 

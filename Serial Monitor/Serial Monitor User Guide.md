@@ -21,8 +21,11 @@ Here are some screenshots showing the settings I used.
 <img width="385" height="431" alt="CoolTerm4" src="https://github.com/user-attachments/assets/f150865b-7559-4bad-bb11-d86c24ef3463" />
 
 After pressing 'Connect', and then re-plugging in the FLY Pi Pico, you should see this screen, or maybe a warning about 'no calibration data found'.
-If that's the case, you'll need to perform a 6-position calibration by entering the command 'cal' and follow the prompts directing you
-to orientate the sensor in each position, and for saving valid calibration data to flash memory storage.
+If that's the case, you'll need to perform a 6-position calibration procedure.
+
+Perform the calibration by entering the Pico Command 'cal' and follow the prompts which direct you
+to orient the sensor in each of the six positions, and for saving valid calibration data to flash memory storage. Since the sensor has a magnetic
+attached, it may be helpful to find flat metal surfaces to attach to, such as on a refrigerator or washing machine.
 
 <img width="530" height="446" alt="CoolTerm5" src="https://github.com/user-attachments/assets/e50a2c73-dd5e-40bd-afb4-82321cca03f2" />
 

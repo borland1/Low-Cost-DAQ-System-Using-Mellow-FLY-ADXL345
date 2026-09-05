@@ -21,11 +21,13 @@ Here are some screenshots showing the settings I used.
 <img width="385" height="431" alt="CoolTerm4" src="https://github.com/user-attachments/assets/f150865b-7559-4bad-bb11-d86c24ef3463" />
 
 After pressing 'Connect', and then re-plugging in the FLY Pi Pico, you should see this screen, or maybe a warning about 'no calibration data found'.
+If that's the case, you'll need to perform a 6-position calibration by entering the command 'cal' and follow the prompts directing you
+to orientate the sensor in each position, and for saving valid calibration data to flash memory storage.
 
 <img width="530" height="446" alt="CoolTerm5" src="https://github.com/user-attachments/assets/e50a2c73-dd5e-40bd-afb4-82321cca03f2" />
 
-During firmware built-in calibration, orientation of the Y-axis is correctly handled. However the axis orientation markings (Silkscreen) on the
-FLY PCB incorrectly shows the wrong direction of the Y-axix.
+During firmware built-in calibration procedure, orientation of the Y-axis is correctly handled by the firmware. However the axis orientation
+markings (Silkscreen) on the FLY PCB incorrectly shows the wrong direction of the Y-axix.
 
 Note the differences between this photo of the FLY PCB, as compared with the orientation shown in the Analog Devices ADXL345 datasheet.
 

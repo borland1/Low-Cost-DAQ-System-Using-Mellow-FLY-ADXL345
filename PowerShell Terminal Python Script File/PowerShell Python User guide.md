@@ -1,3 +1,6 @@
+This is a guide for installing Python on Windows PowerShell terminal. However Microsoft PowerShell terminal is also available for
+Apple Mac OS and Linux OS.
+
 Before attempting to run Python script files from the Windows PowerShell terminal, verify Python has been installed.
  Python package 'pyserial' is also required to run these Python scripts.  
  

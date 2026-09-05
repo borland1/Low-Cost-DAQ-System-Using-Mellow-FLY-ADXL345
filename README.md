@@ -15,6 +15,6 @@ With some simple mounting hardware, the FLY-ADXL345 can be quickly setup on magn
 
 <img width="615" height="666" alt="image" src="https://github.com/user-attachments/assets/50ae8424-ded6-4bab-acdc-b0eb8b16813a" />
 
-With the custom Raspberry Pi Pico firmware provided in this repository, 3-axis acceleration sampling data with binary streaming, is possible at sampling rates up to 3,200 Hz.  And using Microsoft PowerShell terminal with Python script files provided, sampling data can be saved as CSV files, for direct loading in the high performance KST Plot analytical plotting software.
+With the custom Raspberry Pi Pico firmware provided in this repository, 3-axis acceleration sampling dataset with binary streaming, is possible at sampling rates up to 3,200 Hz.  And using Microsoft PowerShell terminal with Python script files provided, sampling data can be saved as CSV files, for direct loading in the high performance KST Plot analytical plotting software.
 
 This project is described mostly for using a Windows PC, however Microsoft PowerShell terminal and KST Plot software are also available for Apple Mac OS and Linux OS.

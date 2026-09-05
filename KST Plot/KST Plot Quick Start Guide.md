@@ -1,4 +1,4 @@
-This is a quick start guide is for setting up KST Plot on a Windows PC.
+This is a quick start guide is for setting up KST Plot on a Windows PC.  However, KST Plot is also available for both Apple Mac OS and Linux OS.
 
 The KST Plot web site is found at the following URL address: https://kst-plot.kde.org/  You'll also find
 the Application Documentation and links to several tutorial videos.

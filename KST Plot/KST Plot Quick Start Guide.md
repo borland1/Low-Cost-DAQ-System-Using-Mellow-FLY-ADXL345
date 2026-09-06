@@ -42,7 +42,7 @@ Click 'Next.  Finally select Curve placement and Style, Plot placement, and Labe
 
 Click 'Finish'.  You'll now see your plots available for exploring.
 
-Here's tab 'View 1', with the time series acceleration plots
+Here's tab 'View 1', with the time series acceleration x, y, z axis plots
 
 <img width="1176" height="729" alt="image" src="https://github.com/user-attachments/assets/eb565e84-05ac-4e58-ab38-7c79c9331551" />
 

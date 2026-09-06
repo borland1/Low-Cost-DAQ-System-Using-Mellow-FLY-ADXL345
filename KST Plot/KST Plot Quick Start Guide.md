@@ -12,7 +12,7 @@ You should have the following main folder, and three sub-folders:
 
 <img width="483" height="171" alt="image" src="https://github.com/user-attachments/assets/788d96c3-029f-4769-bdb6-d2b71da4e7b4" />
 
-Next, migrate in File Explorer to the bin folder and find file 'kst.exe', click on 'kst.exe' to highlight the file, then right click on it and select 'create a shortcut'. Then click and drag the short cut to your desktop.
+Next, migrate in File Explorer to the 'bin' folder, open it, and find file 'kst.exe', click on 'kst.exe' to highlight the file, then right click on it and select 'create a shortcut'. Then click and drag the short cut to your desktop. You should see a new icon labeled 'kst2.exe Shortcut'.
 
 When running KST Plot for the first time, right click on the KST shortcut you created, and select 'Run as administrator'. After a security warning, select 'more info', select 'run anyway', then in the popup asking if you want to run application, select 'Yes'.  Two windows should appear. Ignore the blank screen window (that blank screen is normal for KST Plot), and enlarge the program window, so it overlaps the blank screen window. The next time you want to run kst.exe, just double click on the shortcut, or right click and select 'Open'; you can won't be prompted with those security warnings the next time you run KST Plot.
 

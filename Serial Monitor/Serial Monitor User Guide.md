@@ -48,5 +48,5 @@ subsequent Pico bootups.
 
 CoolTerm and some other Serial Monitor programs, support file capture in dataset streaming mode. However for steaming with sample rates faster than
 800 Hz, these programs are problematic and not reliable.  Those faster steaming modes should be performed using the Python scripts provided.
-The Python script are also more automated than with using a Serial Monitor's file capture features.
+Running the Python script for file capture is also more automated than with using a Serial Monitor's file capture features.
 

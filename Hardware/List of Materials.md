@@ -1,6 +1,7 @@
 Here's a list of materials and estimated costs for purchasing the Mellow FLY-ADXL345 Sensor and mounting hardware
 
-<img width="711" height="385" alt="image" src="https://github.com/user-attachments/assets/728391e0-cc53-45c7-b0ed-d8f28b7b3ce2" />
+<img width="710" height="391" alt="image" src="https://github.com/user-attachments/assets/6dab9332-9c47-41bf-9c17-a1feccfbadd5" />
+
 
 I purchased most of these parts from AliExpress.com.  You might find them elsewhere, but here are some screenshots for the sources on AliExpress.com that I found.
 If you want to buy parts from AliExpress.com, look for sellers that ship by AliExpress.com shipping because those items can benefit by combined shipping fees.

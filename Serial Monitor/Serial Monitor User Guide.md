@@ -42,11 +42,11 @@ Note the differences between this photo of the FLY PCB, as compared with the ori
 
 <img width="1097" height="509" alt="image" src="https://github.com/user-attachments/assets/5cb9dd8b-d0d8-4b32-b38f-22f4e7d765f6" />
 
-
 Other command functions displayed on the Commands List, operate in a similar manner.  'Settings' changes can be saved to flash memory for
 subsequent Pico bootups.
 
-CoolTerm and some other Serial Monitor programs, support file capture in dataset streaming mode. However for steaming with sample rates faster than
-800 Hz, these programs are problematic and not reliable.  Those faster steaming modes should be performed using the Python scripts provided.
-Running the Python script for file capture is also more automated than with using a Serial Monitor's file capture features.
+CoolTerm and some other Serial Monitor programs, support ASCII and binary file captures when running the dataset streaming mode. However
+for binary steaming with sample rates faster than 800 Hz, these programs are problematic and not reliable.  For those faster sampling
+rates using a binary steaming mode, the Python scripts provided here, provide a solution.
+Running the Python script file for data logging is also more automated than with using a Serial Monitor's file capture features.
 

@@ -1,13 +1,13 @@
 This is a guide for using a Serial Monitor with the FLY-ADXL345 Pi Pico firmware.
 
-You'll need a serial monitor program to connect with the Pi Pico firmware over USB. Once connected, you will be able to performing sensor
-calibration, adjusting sensor settings, and also be able to obtain acceleration sampling datasets while running the Pi Pico in ASCII
-streaming modes less than 800 Hz. For data streaming at faster rates (1600 Hz and 3200 Hz), only binary streaming is available. I have
-included a Python script file that handles streaming binary data logging to a capture CSV file.
+You'll need a serial monitor program to connect with the Pi Pico's data aquisition firmware over USB. Once connected, you will be able
+to performing sensor calibration, adjusting sensor settings, and also obtain acceleration sampling datasets while running the Pi Pico
+in ASCII streaming modes with sampling rates up to 800 Hz. For data streaming at faster sampling rates (1600 Hz and 3200 Hz), only
+binary streaming is available. I have included a Python script file that handles streaming binary data logging to a capture CSV file.
 
-There are many simple Serial Monitor programs available (like: PuTTY, ArduinoIDE's Serial Monitor), which will work with the Pi Pico firmware here.
-
-I have been using 'CoolTerm' serial monitor in Windows, which can be downloaded and used free of charge, here:   https://freeware.the-meiers.org/
+There are many simple Serial Monitor programs available (like: PuTTY, ArduinoIDE's Serial Monitor), which will work with the Pi Pico
+firmware here.  I have been using 'CoolTerm' serial monitor in Windows, which can be downloaded and used free of charge, and found
+on the web at this link address:   https://freeware.the-meiers.org/
 
 Here's a screenshot of CoolTerm's workspace.
 

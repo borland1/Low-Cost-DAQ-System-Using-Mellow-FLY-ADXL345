@@ -1,4 +1,4 @@
-# Low-Cost-DAQ-System-Using-Mellow-FLY-ADXL345
+# A Low Cost DAQ System - Using Mellow FLY-ADXL345 Acceleration Sensor
 This project is a low cost Data Acquisition (DAQ) System, based on a re-purposed Mellow FLY-ADXL345 Digital 3-Axis Accelerometer Sensor, running custom
 Raspberry Pi Pico firmware, Python script files for dataset logging as CSV capture files, and for using open source KST Plot analytical software.
 
